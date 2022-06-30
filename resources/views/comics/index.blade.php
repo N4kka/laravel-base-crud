@@ -4,9 +4,9 @@
     <h1>Comics List:</h1>
     <ul>
         @foreach ($comic_list as $comic)
-            <li>
+            <li class="list-unstyled">
                 <h3>
-                    <a href="">
+                    <a style="color: red;" href="{{ route('comics.show', ['comic' => $comic->id]) }}">
                         {{ $comic->title }}
                     </a>
                 </h3>

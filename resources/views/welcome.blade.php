@@ -14,8 +14,8 @@
     </h1>
 
     <h1 class="d-flex">
-        <a href="{{ route('comics.index') }}">
-            Single Comic
+        <a href="">
+            Create New Comic
         </a>
     </h1>
 
