@@ -30,7 +30,8 @@
                                 List</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href=""> Create New Comic
+                            <a class="nav-link active" aria-current="page" href="{{ route('comics.create') }}"> Create
+                                New Comic
                             </a>
                         </li>
                         </li>
