@@ -12,23 +12,23 @@
             </div>
             <div class="mb-3">
                 <label for="thumb" class="form-label">Image</label>
-                <input type="text" class="form-control" id="thumb" rows="3" name="thumb"></input>
+                <input type="text" class="form-control" id="thumb" rows="3" name="thumb">
             </div>
             <div class="mb-3">
                 <label for="price" class="form-label">Price</label>
-                <input type="text" class="form-control" id="price" rows="3" name="price"></input>
+                <input type="text" class="form-control" id="price" rows="3" name="price">
             </div>
             <div class="mb-3">
                 <label for="series" class="form-label">Series</label>
-                <input type="text" class="form-control" id="series" rows="3" name="series"></input>
+                <input type="text" class="form-control" id="series" rows="3" name="series">
             </div>
             <div class="mb-3">
                 <label for="sale_date" class="form-label">Sale Date</label>
-                <input type="text" class="form-control" id="sale_date" rows="3" name="sale_date"></input>
+                <input type="text" class="form-control" id="sale_date" rows="3" name="sale_date">
             </div>
             <div class="mb-3">
                 <label for="type" class="form-label">Type</label>
-                <input type="text" class="form-control" id="type" rows="3" name="type"></input>
+                <input type="text" class="form-control" id="type" rows="3" name="type">
             </div>
             <div class="mb-3">
                 <label for="description" class="form-label">Description</label>
