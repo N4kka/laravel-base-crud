@@ -7,7 +7,7 @@
                 <h1>{{ $comic->title }}</h1>
             </li>
             <li class="list-unstyled">
-                <img src="{{ $comic['thumb'] }}" alt="">
+                <img src="{{ $comic->thumb }}" alt="">
             </li>
             <li class="list-unstyled">
                 <h4>Price: {{ $comic->price }}$</h4>
@@ -25,5 +25,6 @@
                 <p>{{ $comic->description }}</p>
             </li>
         </ul>
+        <a class="btn btn-primary m-4" href="{{ route('comics.edit', ['comic' => $comic->id]) }}">Edit</a>
     </div>
 @endsection
